@@ -10,9 +10,9 @@
 // NB: ricordare di inserire il "."
 
 $('.fa-bars').click(function() {
-    $('.hamburger-menu').show();
+    $('.hamburger-menu').show("active");
 });
 // click su icona X -> menu mobile scompare: trovare selettori
 $('.fa-times').click(function() {
-    $('.hamburger-menu').hide();
+    $('.hamburger-menu').hide("active");
 });
